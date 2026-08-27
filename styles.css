@@ -36,6 +36,36 @@ main {
     line-height: 1.6;
 }
 
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    max-width: 900px;
+}
+
+.contact-link {
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    background: #faf8f3;
+    border: 2px solid #8b7355;
+    border-radius: 10px;
+    color: #3a4d2a;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-link strong {
+    color: #558b2f;
+    font-size: 1.35rem;
+}
+
+.contact-link:hover {
+    border-color: #558b2f;
+}
+
 .showcase {
     display: flex;
     flex-wrap: wrap;
