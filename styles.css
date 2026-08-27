@@ -62,6 +62,21 @@ main {
     text-align: center;
 }
 
+.about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.about-content h1 {
+    text-align: center;
+}
+
+.about-content p {
+    margin: 0 0 20px;
+}
+
 .contact-links {
     display: flex;
     flex-wrap: wrap;
