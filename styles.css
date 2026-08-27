@@ -19,6 +19,22 @@ header h1 {
     font-size: 1.2rem;
 }
 
+footer {
+    background: #2d5016;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 nav a {
     color: white;
     text-decoration: none;
