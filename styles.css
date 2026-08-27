@@ -50,11 +50,16 @@ main {
     padding: 18px;
 }
 
+.welcome-title {
+    text-align: center;
+}
+
 .intro {
     max-width: 900px;
-    margin: 0 0 28px;
+    margin: 0 auto 28px;
     font-size: 1.2rem;
     line-height: 1.6;
+    text-align: center;
 }
 
 .contact-links {
